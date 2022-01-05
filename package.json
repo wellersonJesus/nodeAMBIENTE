@@ -1,0 +1,19 @@
+{
+  "name": "node_ambiente",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wellersonJesus/node_ambiente.git",
+  "author": "wellersonjesus <wellersonjesus@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server",
+    "dev:debug": "nodemon --inspect src/server"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  }
+}
